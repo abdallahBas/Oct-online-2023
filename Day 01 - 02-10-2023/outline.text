@@ -1,0 +1,24 @@
+application  [desktop , mobile , web application]
+web [fron-end , back-end]
+front [htl , css , javascript]
+
+create html Page
+    hyper text markup language
+    set of tags [opens , closed]
+    <!DOCTYPE html>  html5 , render using stndard mode not quirks mode
+    head
+    meta [charset , description , keywords , compatible , favicon, title]
+    <!-- 
+        ctrl + space   => html sample
+        shit + 1 
+    -->
+
+    h1-h6
+    p
+    hr , br
+    attributes  [global | custom]
+        global => id, class, title, name, style,....
+        custom => src, href, alt, target, ...
+
+    img 
+    a
