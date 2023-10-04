@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style> 
+        table,th, td{
+            border:2px solid;
+            width: 600px;
+            margin-top: 20px;
+        }
+      thead{
+        background-color: black;
+        color: white;
+      }
+      .tab-cls thead {
+        background-color: red;
+      }
+      .tab-cls {
+        text-align: center;
+      }
+      tr:hover {
+        background-color: #ddd;
+      }
+    </style>
+</head>
+<body>
+    
+
+    <table class="tab-cls">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Aya Ahmed</td>
+                <td>010236589854</td>
+                <td>9000</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Ali Ahmed</td>
+                <td>01523665647</td>
+                <td rowspan="3">8000</td>
+            </tr>
+            <tr>
+                <td>01224256569</td>
+            </tr>
+            <tr>
+                <td>01124256569</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Sara magdy</td>
+                <td></td>
+                <td>10000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Salaries</td>
+                <td>27000</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Laila Amer</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
