@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label>username</label>
+            <input type="text">
+        </div>
+        <div>
+            <label> Depart </label>
+            <select name="" id="">
+                <option value="">Sales</option>
+                <option value="">Finance</option>
+                <option value="">Accounting</option>
+            </select>
+            <label for="">Skills</label>
+            <select multiple size="5" >
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">Js</option>
+                <option value="">Node JS</option>
+                <option value="">Php</option>
+                <option value="">C#</option>
+            </select>
+            <label for="">Skills</label>
+            <select multiple size="10">
+                <optgroup label="Front-End">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">Js</option>
+                </optgroup>
+                <optgroup label="Back-End">
+                    <option value="">Node JS</option>
+                    <option value="">Php</option>
+                    <option value="">C#</option>
+                </optgroup>
+            </select>
+
+            <div>
+                <label for="">Leave note</label> <br>
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+        </div>
+
+        <button>Save</button>
+
+    </form>
+    <hr>
+    <form action="">
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            <div>
+                <label for="">First name</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">Last name</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="">email</label>
+                <input type="text">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Technical Info</legend>
+            <label for="">Skills</label>
+            <select multiple size="10">
+                <optgroup label="Front-End">
+                    <option value="">HTML</option>
+                    <option value="">CSS</option>
+                    <option value="">Js</option>
+                </optgroup>
+                <optgroup label="Back-End">
+                    <option value="">Node JS</option>
+                    <option value="">Php</option>
+                    <option value="">C#</option>
+                </optgroup>
+            </select>
+            <hr>
+            <input list="my-list">
+            <datalist id="my-list">
+                <option value="Cairo">
+                <option value="Menofia">
+                <option value="Aswan">
+                <option value="Sohag">
+                <option value="Fayoum">
+                <option value="Qal">
+                <option value="Giza">
+            </datalist>
+        </fieldset>
+        <button>Save</button>
+    </form>
+
+</body>
+
+</html>
