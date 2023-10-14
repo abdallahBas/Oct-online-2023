@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form action="form-elements.html" autocomplete="off" novalidate method="GET" id="form1">
+        <div>
+            <label for="">username</label>
+            <input type="text" name="user-name" id="" required>
+        </div>
+        <div>
+            <label for="">email</label>
+            <input type="email" name="user-email" id="" required>
+        </div>
+        <input type="submit">
+    </form>
+    <input type="password" name="password" form="form1">
+    <input type="submit" formmethod="get" formaction="https://www.amazon.com" name="" id="" form="form1">
+
+    <hr>
+    <form action="form-inputs.html" method="post">
+        <input type="text" name="f2-user" required>
+        <input type="email" name="f2-email" required>
+        <input type="text" placeholder="title" name="title" value="this is my title">
+        <input type="text" disabled value="disabled value" name="disabled-item">
+        <input type="text" readonly value="realonly value" name="readonly-item">
+        <input type="hidden" value="hidden value" name="hidden-item">
+
+        <div>
+            <input type="checkbox" name="skill" value="html">
+            <label for="">HTML</label>
+        </div>
+        <div>
+            <input type="checkbox" name="skill" value="css">
+            <label for="">CSS</label>
+        </div>
+        <div>
+            <input type="checkbox" name="skill" value="javascript">
+            <label for="">Javascript</label>
+        </div>
+
+        <select name="gender" id="">
+            <option value="man">male</option>
+            <option value="weommen">female</option>
+        </select>
+        <input type="color" name="favColor">
+        <input type="file" name="cv">
+        <input type="submit" value="submit 1">
+        <input type="submit" value="submot 2" formaction="form-elements.html" >
+        <input type="submit" value="submit 3" formaction="https://www.google.com"  formmethod="get" formnovalidate>
+    </form>
+
+
+
+</body>
+
+</html>

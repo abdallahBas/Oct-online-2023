@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            <div>
+                <label for="">username</label>
+                <input type="text" readonly>
+                <input type="text" size="10">
+            </div>
+            <div>
+                <label for="">Gender </label>
+                <select name="" id="" disabled>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Country</label>
+                <input list="countries">
+                <datalist id="countries">
+                    <option value="Egypt">
+                    <option value="Palestine">
+                    <option value="Syria">
+                    <option value="Qatar">
+                    <option value="Lybia">
+                </datalist>
+            </div>
+
+            <div>
+                <input type="date" value="2012-07-02" min="2010-07-01" max="2030-07-01">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tech Info</legend>
+            <div>
+
+
+                <select name="" id="">
+                    <optgroup label="group 1 ">
+                        <option value="">one</option>
+                        <option value="">two</option>
+                        <option value="" selected>three</option>
+                    </optgroup>
+                    <optgroup label="group 2">
+                        <option value="">four</option>
+                        <option value="">five</option>
+                        <option value="">six</option>
+                    </optgroup>
+                </select>
+                <select name="" id="" multiple size="3">
+                    <optgroup label="group 1 ">
+                        <option value="">one</option>
+                        <option value="">two</option>
+                        <option value="" selected>three</option>
+                    </optgroup>
+                    <optgroup label="group 2">
+                        <option value="">four</option>
+                        <option value="">five</option>
+                        <option value="">six</option>
+                    </optgroup>
+                </select>
+    
+            </div>
+            <div>
+                <label for="">Leave Comment</label> <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+    </form>
+
+
+</body>
+
+</html>
