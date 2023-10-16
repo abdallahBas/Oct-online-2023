@@ -1,0 +1,23 @@
+syntax
+
+selectors
+    *  => all elements in page
+    tag /element => all tags of this typ  for example div => all divs 
+    .class => all elements which have this class
+    #id  => select element with the specified id
+
+selector {
+
+    css code
+
+}
+
+div {
+    prop1: value;
+    prop2: value;
+}
+
+specificity
+!important
+background [color - image]
+color

@@ -1,0 +1,111 @@
+p {
+    /* colorName | rgb,rgba |  hsl,hsla | hex */
+    /* color name */
+    background-color: blue;
+
+    /* rgb => red , green , blue */
+    background-color: rgb(110, 67, 166);
+    
+    /* rgba => alpha [0-1] */
+    background-color: rgba(55, 7, 117, 0.662);
+    background-color: rgba(55 7 117 / 0.662);
+
+    /* hex */
+    background-color: #469505;
+    background-color: #dd33aa;
+    background-color: #d3a;
+    background-color: #2348aecc;
+    background-color: #dd33aacc;
+    background-color: #d3ac;
+    /* background-color: #d3a56448; */
+
+    /* hsla */
+    background-color: hsla(232, 81%, 52%, 0.651);
+
+    /* transpaernt */
+    background-color: transparent;
+    /* 
+    decimal =>  0, 1, 2,3,...
+    binary  => 0 , 1
+    octal   => 0,1,2,3,4,5,6,7
+    hex     => 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
+
+    rrggbb
+    0e6b32
+    00
+    01
+    02
+    .
+    0f
+    10
+    11
+    .
+    1f
+    .
+    ff
+    */
+}
+
+
+div {
+    background-color: green;
+    background-color: tomato;
+    color: #fff;
+}
+
+/* 1 */
+section {
+    background-color: rebeccapurple;
+    color: white;
+}
+/* 10 */
+.cls {
+   background-color: gold; 
+}
+
+/* 1 + 10 = 11 */
+div.cls{
+    background-color: black;
+}
+/* 100 */
+#demo {
+    background-color: teal;
+}
+
+/* 1 + 10 + 100 = 111 */
+p.test#demo#d#e {
+
+}
+/* 1 + 1 + 10 + 1 + 100 + 10 = 123 */
+div p.cls span#ids.test {
+
+}
+
+/* 1 */
+footer {
+    background-color: darkgoldenrod !important;
+    text-align: center;
+}
+
+/* 10 */
+.foot {
+    color: white;
+    background-color: rgba(55, 7, 117, 0.662) !important;
+}
+
+/* 10 */
+.ft {
+    color: red;
+}
+/* 20 */
+.foot.ft {
+    background-color: rgb(3, 79, 123);
+}
+
+
+main {
+    background-color: #d3a;
+}
+.main-element{
+    background-color: red;
+}
