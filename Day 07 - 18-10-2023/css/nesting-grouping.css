@@ -1,0 +1,24 @@
+/* grouping */
+
+.cls1,
+.cls2 {
+    background-color: green;
+    color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+}
+
+main {
+    background-color: #eda;
+    padding: 12px;
+}
+
+main p {
+    background-color: tomato;
+    color: #fff;
+}
+
+main div p {
+    background-color: crimson;
+}

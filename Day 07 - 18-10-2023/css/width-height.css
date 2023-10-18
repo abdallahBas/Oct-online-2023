@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: brown;
+
+    height: auto;
+    height: 60px;
+    /* css unites */
+
+    height: 50%; /* 0.5 *  parent height*/
+}
+
+section {
+    background-color: blue;
+    padding: 10px;
+    height: 200px;
+
+}
+
+div {
+    background-color: yellow;
+    height: 50%;  /* 0.5 * pernt height => 3 * 200 = 100*/
+    width: 50%;
+
+    width: fit-content;
+}
+
+main {
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 16px;
+    margin-top: 16px;
+
+    min-width: 200px;
+    max-width: 50%;
+    box-sizing: border-box;
+}

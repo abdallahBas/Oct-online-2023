@@ -1,0 +1,35 @@
+/* 3- outline */
+
+p {
+    background-color: red;
+    color: #03A9F4;
+    width: 200px;
+    height: 80px;
+    padding: 15px;
+    border: 5px solid currentColor;
+    box-sizing: border-box;
+    margin: 12.5px;
+}
+
+div {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    
+
+    border: 4px solid red;
+    /* border: none;  no border  */
+
+   
+
+    outline: 5px solid blue;
+    outline-color: green;
+    outline-style: dotted;
+    outline-width: 10px;
+
+    /* outline: none; */
+}
+input:focus {
+    outline-color: red;
+}

@@ -1,0 +1,81 @@
+/* 
+display : none , inline , block , inline-block  [flex , inline-flex , grid , inline-grid, ... ]
+*/
+
+.inl {
+    background-color: green;
+    width: 6000px;
+    height: 1000px;
+    margin: 10px;
+    padding: 30px;
+}
+
+div {
+    background-color: red;
+    margin: 15px 0;
+}
+
+section {
+    background-color: blueviolet;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 200px;
+}
+
+aside { 
+    background-color: rgb(208, 174, 240);
+
+    
+    height: 40px;
+    margin: 20px auto;
+    padding: 5px;
+}
+footer {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.in-blk {
+    background-color: greenyellow;
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    margin: 10px  0;
+    padding: 50px;
+
+}
+
+ul {
+    background: green;
+    padding: 10px;
+    /* width: 50%; */
+    margin: 10px auto;
+
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url(/images/favicon-32x32.png);
+
+    list-style: inside square url(/images/favicon-32x32.png);
+
+    list-style: none;
+
+}
+li {
+    background-color: lightgray;
+    padding: 5px;
+    margin: 5px 0;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+}
+
+.disp {
+        /* display: none; */
+        visibility: hidden;
+        background-color: crimson;
+    
+}
