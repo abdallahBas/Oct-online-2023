@@ -1,0 +1,13 @@
+p {
+    font-size: 30px; /* css unites*/
+    font-weight: bold; /* normal , bold , 100 - 900*/
+    font-style:oblique; /*normal , italic , oblique*/
+    font-variant: small-caps;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cls {
+font-variant:normal;
+text-transform: uppercase;
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

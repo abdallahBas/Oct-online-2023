@@ -1,0 +1,39 @@
+section {
+    background-color: burlywood;
+    padding: 16px;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+    border: 6px solid rebeccapurple;
+}
+
+p {
+    background-color: brown;
+    text-align: left;
+    color: lightblue;
+    /* text-decoration: revert; */
+    /* background-color: transparent; */
+    border: inherit;
+    padding: inherit;
+    /* margin: inherit; */
+    color: initial;
+    color: inherit;
+    color: unset;
+    border: initial;
+    border: unset;
+    margin: unset;
+    margin: revert;
+}
+
+ul {
+    background-color: #562;
+    background-color: #562;
+    padding: initial;
+    padding: unset;
+    padding: revert;
+    margin: 0;
+    margin: initial;
+    margin: inherit;
+    margin: revert;
+}
