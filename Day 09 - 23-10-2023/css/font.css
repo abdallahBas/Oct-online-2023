@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rowdies:wght@300;400;700&display=swap');
+
+
+@font-face {
+    font-family: "nti regular";
+    src: url(/fonts/AlumniSansCollegiateOne-Regular.ttf);
+}
+@font-face {
+    font-family: "nti italic";
+    src: url(/fonts/AlumniSansCollegiateOne-Italic.ttf) format('truetype');
+}
+.cls {
+    font-family: 'Rowdies', sans-serif;
+    font-weight: 700;
+}
+
+.tst {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 900;
+}
+
+.reg{
+    font-family: "nti regular";
+    font-size: 22px;
+}
+.it {
+    font-family: "nti italic";
+    font-size: 22px;
+}

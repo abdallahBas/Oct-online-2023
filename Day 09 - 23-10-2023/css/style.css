@@ -1,0 +1,21 @@
+.fa-facebook{
+    color: blue;
+    /* background-color: red; */
+    /* padding: 8px; */
+    font-size: 26px;
+}
+
+.fa-solid {
+    color: darkgoldenrod;
+}
+.fa-house {
+    color: darkcyan;
+}
+.fa-solid {
+    width: 100px;
+    border: 2px solid green
+}
+.fa-gear{
+    background-color: red;
+    text-align: center;
+}

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: tomato;
+    padding: 10px;
+}
+
+h2{
+    background-color: green;
+    float: left;
+    height: 150px;
+}
+nav{
+    background-color: rgb(206, 0, 103);
+    padding: 8px;
+   float: left;
+}
+.sign {
+    background-color: darkgoldenrod;
+    float: right;
+    padding: 15px;
+
+}
+
+.clr {
+    clear: both;
+}
+
+
+section {
+    background-color: #555;
+    padding: 1rem;
+    color: #fff;
+}
+.product {
+    background-color: #999;
+    padding: 8px;
+    /* float: left; */
+    margin: 10px;
+    width: 30%;
+    float: inline-start;
+}

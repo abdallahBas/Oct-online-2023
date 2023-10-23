@@ -1,0 +1,65 @@
+/* 
+px   => 
+em   => parent element      => 1em = parent font-size
+rem  => root element (html) => 1rem = html font-size
+vh   => viewport height     => 1vh = 1% from device screen height
+vw   => viewport width      => 1vw = 1% from device screen width
+vmin => 1vmin = min(1vh , 1vw)
+vmax => 1vmax = max(1vh , vw)
+%
+*/
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+section {
+    background-color: rosybrown;
+    padding: 10px;
+    border: 5px solid royalblue;
+    font-size: 30px;
+    font-size: 20px;
+    width: 50vw;
+}
+p {
+    background-color: bisque;
+    border: inherit;
+    padding: 10px;
+}
+.inside {
+    font-size: 1em;
+    font-size: 30px;
+    font-size: 0.75em;
+    width: 100%;
+    /* width: 100vw; */ 
+}
+.outside {
+    font-size: 1em;
+    font-size: 16px;
+    font-size: inherit;
+}
+/* rem */
+html {
+    font-size: 26px;
+}
+.rot {
+    font-size: 1rem;
+    font-size: 26px;
+    padding: 1rem;
+}
+/* vh , vw */
+header{
+    background-color: violet;
+    height: 50vh;
+    width: 100vw;
+    width: 100%;
+}
+/* vmin , max */
+nav {
+    background-color: black;
+    color: #fff;
+    height: 8vh;
+    width: 50vmin;
+    width: 50vmax;
+}
