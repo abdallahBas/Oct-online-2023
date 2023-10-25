@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* local variables & global varibels */
+
+html {
+    --master-color:rgb(126, 124, 9);
+    --main-color:rgb(0, 102, 85);
+    --secondary-color:rgb(248, 248, 217);
+    --article-border: 6px solid var(--master-color);
+    --main-width:90%;
+}
+
+header{
+    height: 10vh;
+    /* background-color: rgb(13, 62, 107); */
+    background-color: var(--master-color ,  var(--main-color));
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 3vh;
+
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+body > .fa-solid {
+    color: red;
+    background-color: burlywood;
+    font-size: 30px;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    padding: 6px;
+}
+/*  main  */
+main {
+    padding: 4rem 0;
+    text-align: center;
+}
+section{
+    width: var(--main-width);   
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1.5rem 1rem;
+}
+section h1 {
+    /* color: rgb(13, 62, 107); */
+    color: var(--master-color ,  var(--main-color));
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+.service-container{
+    /* background-color: red; */
+}
+.service {
+    --marg:1%;
+    float: left;
+    width: calc(100% / 3  - 2 * var(--marg));
+    margin: var(--marg);
+    padding: 1.5rem .75rem;
+    /* background-color: rgb(223, 238, 252); */
+    background-color: var(--secondary-color);
+
+    position: relative;
+}
+span {
+    position: absolute;
+    padding: 6px 0;
+    width: 100px;
+    background-color: var(--master-color);
+    color: white;
+
+    top: -12px;
+    left: calc(50% - 50px);
+    border-radius: 5px;
+}
+.service .fa-solid{
+    /* color: rgb(13, 62, 107); */
+    color: var(--master-color ,  var(--main-color));
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+.service h3{
+    /* color: rgb(13, 62, 107); */
+    color: var(--master-color ,  var(--main-color));
+    font-size: 1.5rem;
+    padding: 1rem 0;
+ }
+.service p, article p {
+    color: #444;
+    padding: 0.5rem 0 1rem;
+}
+.service button{
+    /* background-color:  rgb(13, 62, 107); */
+    background-color:  var(--master-color,  var(--main-color));
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: .75rem 1rem;
+    cursor: pointer;
+}
+/* Articles Section */
+.articls-container{
+    padding: 1.5rem 1rem;
+    /* --master-color:rgb(119, 7, 110); */
+}
+article{
+    /* --master-color:red; */
+    /* background-color: rgb(223, 238, 252); */
+    background-color: var(--secondary-color);
+    margin: 1rem 0;
+    /* border: 5px solid rgb(13, 62, 107); */
+    border: var(--article-border);
+    padding: 1.5rem 1rem ;
+}
+article h2 {
+    /* declare */
+    /* --master-color: blue; */
+    /* color: rgb(13, 62, 107); */
+    color: var(--master-color ,  var(--main-color));
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+/* Users Section */
+.users{
+    background-color: darkgoldenrod;
+    padding: 0;
+}
+.user{
+    --user-margin:1%;
+    --num-users: 6;
+    background-color: green;
+    float: left;
+    width: calc(100%  / var(--num-users) - 2 * var(--user-margin));
+    margin: 0.5rem var(--user-margin);
+}
+
+
+/* footer */
+.clr {
+    clear: both;
+}
+footer {
+    background-color: black;
+    color: #fff;
+    height: 20vh;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 7vh;
+
+}
