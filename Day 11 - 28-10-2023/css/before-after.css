@@ -1,0 +1,138 @@
+p {
+    background-color: blueviolet;
+    padding: 8px;
+    width: 50%;
+    margin: 1rem auto;
+}
+
+p::before {
+    content: "Start";
+    background-color: red;
+    color: white;
+    padding: 3px 6px;
+    margin-right: 10px;
+}
+
+p::after {
+    content: "End";
+    background-color: teal;
+    color: tan;
+    padding: 3px 6px;
+    margin-left: 10px;
+}
+
+p:hover {
+    background-color: tomato;
+}
+
+p:hover::before {
+    background-color: black;
+}
+
+section {
+    background-color: teal;
+    margin: 8px auto;
+    padding: 8px;
+    width: 60%;
+}
+
+.pro {
+    position: relative;
+}
+
+.pro::after {
+
+    --m-width: 60px;
+    content: "pro";
+    position: absolute;
+    top: 0;
+    right: calc(-1 * (var(--m-width) + 10px));
+    width: var(--m-width);
+    height: 100%;
+    background-color: black;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-transform: uppercase;
+}
+
+.pro::before {
+    --sid: 0px;
+    content: "";
+    position: absolute;
+    width: var(--sid);
+    height: 0px;
+
+    left: calc( (var(--sid) + 10px) * -1);
+    border: 10px solid red;
+    border-color: transparent transparent transparent red;
+}
+/*   */
+
+ul {
+    list-style: none;
+    /* background-color: #eda; */
+    padding: 10px;
+    width: 50%;
+    margin: 10px auto;
+    counter-increment: outer-counter;
+
+}
+li {
+    background-color: rgb(241, 191, 39);
+    padding: 6px;
+    margin: 5px 0;
+
+    position: relative;
+    counter-increment: inner-counter;
+}
+li::after{
+    content: counter(outer-counter)"."counter(inner-counter);
+    position: absolute;
+    top: 0;
+    left: -2.5rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+li::before{
+    font-family: "Font Awesome 6 Free"; 
+    font-weight: 900; 
+    content: "\f152";
+    /* background-color: red; */
+    position: absolute;
+    right: -30px;
+}
+
+aside {
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 8px ;
+    margin: 5px auto;
+    width: 200px;
+    
+    position: relative;
+}
+
+aside::after {
+    content: attr(data-custom);
+    background-color: red;
+    color: #fff;
+    padding: 4px;
+    margin: 0px 6px;
+
+}
+
+aside::before{
+    /* content: url(); */
+    content: "\21B5";
+    background-color: red;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    right: -20px;
+}

@@ -1,0 +1,66 @@
+
+
+/* clicked at least one time */
+a:visited{
+    color: red;
+}
+/* not clicked */
+/* 11 */
+a:link{
+    color: green;
+}
+/* 11 */
+a:hover{
+    color: yellow ;
+}
+a:active {
+    color: hotpink;
+}
+input.foc:focus {
+    /* outline-color: rebeccapurple; */
+    outline: none;
+    border: none;
+    border-bottom: 4px solid teal;
+    color: teal;
+    background-color: #eee;
+}
+input:checked{
+    /* display: block; */
+    margin-right: 30px;
+}
+input:checked + label {
+    color: red;
+}
+:empty{
+    margin: 0 15px;
+    border: 3px solid red;
+}
+div:empty {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+/* psudo elements */
+span {
+    background-color: red;
+    color: #fff;
+    padding: 2px 4px;
+    text-transform: uppercase;
+}
+p.ps::first-letter {
+    background-color: red;
+    color: #fff;
+    padding: 2px 4px;
+    text-transform: uppercase;
+}
+p.ln::first-line {
+    color: blue;
+}
+::selection{
+    background-color: black;
+    color: gold;
+}
+p.ln::selection{
+    background-color: teal;
+    color: tan;
+}
