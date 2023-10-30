@@ -1,0 +1,39 @@
+.parent {
+    background-color: #eda;
+    width: 85%;
+    height: 500px;
+    display: flex;
+    display: inline-flex;
+    column-gap: 6px;
+    row-gap: 5px;
+    gap: 5px 10px;
+    gap:6px;
+
+    flex-wrap: wrap;  /*wrap , nowrap , wrap-reverse*/
+    flex-direction: row; /* row , row-reverse, column , column-reverse*/
+
+    /* flex-flow: dirction , wrap; */
+    flex-flow: wrap column;
+    flex-flow:  row wrap;
+
+    /* flex-start , flex-end , center , space-between , space-around , space-evenly */  /*  h */
+    justify-content: space-between;
+
+    /* strech , flex-start , flex-end, center*/
+    align-items: center;
+
+    /* flex-start , flex-end , center , space-between , space-around , space-evenly */  /*  v */
+    align-content: space-between;
+
+}
+.product {
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 5px;
+    width: 19%;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
