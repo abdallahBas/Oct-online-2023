@@ -1,0 +1,154 @@
+.parent {
+    background-color: #eda;
+    padding: 8px;
+    height: 60px;
+
+    display: flex;
+    align-items: stretch;
+    gap: 6px;
+    transition: 0.4s;
+}
+
+.child {
+    background-color: teal;
+    color: tan;
+    width: 60px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seven {
+    background-color: black;
+    align-self: flex-start;
+    order: -1;
+}
+
+.nine {
+    background-color: rgb(166, 105, 0);
+    flex-grow: 1;
+
+    order: 2;
+}
+
+.three {
+    background-color: darkmagenta;
+    color: #fff;
+    /* flex-grow: 2; */
+    transition: 0.5s;
+    order: 2;
+}
+
+/* 30 */
+.parent:hover .child {
+    flex-grow: 1;
+}
+
+.parent .child {
+    /* flex-grow: 1; */
+}
+
+.three:hover {
+    flex-grow: 2;
+}
+
+.five {
+    flex-shrink: 2;
+    background-color: yellow;
+    order: 4;
+
+}
+
+.eleven {
+    order: 1;
+    background-color: greenyellow;
+    flex-shrink: 3;
+}
+
+.four {
+    background-color: blue;
+    color: #fff;
+    order: -2;
+
+}
+
+.header-1 {
+    background-color: tomato;
+    display: flex;
+    height: 70px;
+
+    padding: 0 50px;
+}
+
+h1 {
+    background-color: darkgoldenrod;
+    margin: 0;
+}
+
+nav {
+    background-color: darkcyan;
+    flex-grow: 1;
+}
+
+h1,
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* flex-basis */
+
+main {
+    margin-top: 20px;
+    color: #fff;
+    background-color: aquamarine;
+    padding: 6px;
+    text-align: center;
+    height: 50vh;
+
+    display: flex;
+}
+
+.header-2{
+    background-color: #666;
+    /* width: 15%; */
+    /* height: 15%; */
+    flex-basis: 15%;
+}
+section {
+    background-color: #999;
+    /* width: 70%; */
+    /* height: 70%; */
+    flex-basis: 70%;
+}
+footer {
+    background-color: #222;
+    /* height: 15%; */
+    /* width: 15%; */
+    flex-basis: 15%;
+}
+
+@media (max-width:600px) {
+    main {
+        flex-direction: column;
+    }
+    /* .header-2 {
+        height: 15%;
+        width: 100%;
+    }
+    section{
+        width: 100%;
+        height: 70%;
+    }
+    footer {
+        width: 100%;
+        height: 15%;
+    } */
+}
+
+
+/* flex: grow shrink basis */
