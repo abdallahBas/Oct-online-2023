@@ -1,0 +1,14 @@
+.parent {
+    background-color: rgb(200, 153, 247);
+    height: 50vh;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(80px , 1fr));
+    gap: 0.4rem;
+}
+
+.child{
+    background-color: rebeccapurple;
+    color: #fff;
+}

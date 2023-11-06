@@ -1,0 +1,23 @@
+div {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    width: 250px;
+    color: #ffffff;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.translate-x:hover{
+    /* can take -ve values */
+    transform: translateX(100px);
+}
+.translate-y:hover{
+    transform: translateY(60px);
+    background-color: black;
+}
+.translate:hover{
+    transform: translate(100px); /* x = 100px , y =0*/
+    transform: translate(100px , 50px); /* x = 100px , y =50*/
+}

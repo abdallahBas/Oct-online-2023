@@ -1,0 +1,67 @@
+div {
+    background-color: darkgoldenrod;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    color: white;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 22px;
+    transition: 0.5s;
+    display: grid;
+    place-content: center;
+}
+
+body{
+    perspective: 900px;
+}
+
+/* 360deg = 1turn = 6.25rad = 400grad */
+.rotate-x:hover{
+    transform: rotateX(180deg);
+    transform: rotateX(0.5turn);
+}
+.rotate-y:hover{
+    transform: rotateY(45deg);
+}
+.rotate:hover{
+    transform: rotate(45deg);
+    transform: rotatez(45deg);
+}
+
+input::placeholder {
+    color: red;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-btn {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
