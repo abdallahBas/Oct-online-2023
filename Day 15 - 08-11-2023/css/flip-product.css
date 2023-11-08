@@ -1,0 +1,39 @@
+.parent{
+    background-color: rgb(218, 183, 253);
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+    perspective: 900px;
+}
+.product {
+    background-color: rebeccapurple;
+    flex-basis: 32%;
+    position: relative;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform-origin: left;
+}
+.product:hover{
+    transform:  translateX(100%) rotateY(180deg)  ;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 25px;
+    display: grid;
+    place-content: center
+}
+.front {
+    background-color: brown;
+}
+.back {
+    background-color: rgb(240, 240, 93);
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}

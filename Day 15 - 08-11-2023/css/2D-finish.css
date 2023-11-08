@@ -1,0 +1,81 @@
+nav{
+    background-color: red;
+
+    width: 200px;
+    font-size: 20px;
+    padding: 6px;
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+
+}
+
+img{
+    width: 50px;
+    /* vertical-align: middle; */
+}
+
+span{
+    background-color: gold;
+}
+
+
+
+.matrix {
+    background-color: darkcyan;
+    color: #fff;
+    padding: 1rem;
+    margin: 20px auto;
+    width: 200px;
+    text-align: center;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.matrix:hover{
+    /* matrix : scalex skewy skewx scaley translatex , translatey */
+    transform: matrix(1.5,0.96,0,1.5,100,0);
+}
+
+/* transform-origin */
+.origin{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    display: grid;
+    place-content: center;
+    color: white;
+    font-size: 25px;
+    margin: 20px auto;
+    transition: 0.5s;
+    position: relative;
+
+    /* transform-origin: left; */
+
+    transform-origin:  center right;
+    /*transform-origin: 50px 100px; */
+    /* css unit*/
+    /*transform-origin: 50px bottom; 
+    */
+
+}
+.origin::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50%;
+    right: 0%;
+    transform: translate(50% , 50%)
+
+}
+
+.origin:hover{
+    /* transform: scale(1.5); */
+    /* transform: rotate(45deg); */
+    transform: scale(1.5);
+    }
+
