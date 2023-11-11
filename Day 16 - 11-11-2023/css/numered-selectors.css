@@ -1,0 +1,62 @@
+/*  first child at each container */
+:first-child {
+    color: red;
+}
+
+body :first-child {
+    background-color: blue;
+    color: white;
+}
+
+body > :first-child {
+    text-align: center;
+}
+
+section:first-child{
+    text-align: right;
+}
+
+body :last-child {
+    background-color: black;
+    color: #fff;
+}
+
+div:last-child {
+text-align: center;
+}
+
+body :only-child{
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* 
+first-of-type 
+last-of-type
+only-of-type
+*/
+
+body :first-of-type{
+    background-color: crimson;
+    color: #fff;
+    padding: 0.25rem;
+    margin: 10px;
+}
+
+body :last-of-type{
+    color: blue;
+}
+
+body :only-of-type {
+    text-align: right;
+    text-decoration: underline;
+}
+
+/* not  */
+:not(div) {
+    border-radius: 5px;
+}
+
+main > :not(section){
+
+}

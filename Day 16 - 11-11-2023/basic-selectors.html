@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/basic-selectors.css">
+</head>
+<body>
+    <div>first div</div>
+    <div class="cls1">second  div</div>
+    <div class="cls1 cls2">third  div</div>
+    <section class="cls1"> section one</section>
+    <section id="demo" class="cls2">section two</section>
+    <section  class="cls2 cls3">section three</section>
+    <aside class="cls1 cls2">aside</aside>
+
+    <!-- nesting -->
+
+    <section>
+        <div class="cls5">
+            section -div
+            <div class="sec-div">section - div -div
+                <p>section - div -div - p</p>
+            </div>
+            <p>section -div - p</p>
+        </div>
+        <p>section - p</p>
+    </section>
+
+    <div>
+        first child
+    </div>
+    <p>div + p</p>
+    <p>div  p</p>
+</body>
+</html>

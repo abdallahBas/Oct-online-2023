@@ -1,0 +1,72 @@
+body > section:nth-child(4){
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 4px;
+    margin: 3px;
+}
+body > div:nth-child(4){
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 4px;
+    margin: 3px;
+}
+
+
+body > :nth-last-child(3){
+    background-color: black;
+    color: #fff;
+    padding: 4px;
+    margin: 3px;
+}
+
+body > :nth-of-type(1){
+    background-color: rgb(228, 137, 73);
+    color: #fff;
+    padding: 4px;
+    margin: 3px;
+}
+
+body > div:nth-of-type(2){
+    background-color: red;
+}
+
+body> main:nth-last-of-type(3){
+    background-color: blue;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+td , th , table {
+    border: 2px solid;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+tbody > tr:nth-child(odd){
+    background-color: rebeccapurple;
+}
+tbody> tr:nth-child(even){
+    background-color: rgb(207, 172, 243);
+
+}
+
+:disabled{
+
+}
+
+input:required{
+
+}
+
+:empty{
+
+}
+
+:focus{
+    
+}

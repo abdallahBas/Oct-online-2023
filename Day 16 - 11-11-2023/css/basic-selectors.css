@@ -1,0 +1,88 @@
+/* 
+
+1- * => all elements
+2- element (tag) => div => all divs
+3- .class => all elements have this class 
+4- #id  => element has id
+5- .cls1.cls2  => element has theses two classes
+6- #demo.cls1.cls2  => elements has id = demo and classes (cls1 , cls2)
+7- p.cls  => p has cls class
+8- p.cls1.cls2 => p has classes (cls1 , cls2)
+9- section#res 
+
+
+
+*/
+div {
+    background-color: brown;
+    color: #fff;
+    padding: 6px;
+    margin: 6px 0;
+}
+
+.cls1 {
+    background-color: rgb(89, 4, 100);
+    width: 50%;
+}
+
+div.cls1 {
+    margin: 5px auto;
+}
+
+.cls1.cls2 {
+    text-align: center;
+    height: 60px;
+}
+
+section {
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    margin: 8px;
+}
+
+section.cls1 {
+    text-align: right;
+}
+
+section.cls2.cls3 {
+    text-align: center;
+}
+
+/* 
+Nesting (childs)
+selctor selector
+    any child not must be direct child
+
+
+ */
+
+section p {
+    background-color: blue;
+}
+
+/* 
+selector > selector
+    direct child
+     */
+section>p  aside.cls3.cls4 div>p{
+    background-color: yellow;
+}
+
+/* sibilings  
+
+~ 
++
+
+*/
+
+div ~ p{
+    background-color: green;
+}
+div  + p {
+    background-color: blueviolet;
+}
+
+div  div + p {
+    background-color: darkgoldenrod;
+}

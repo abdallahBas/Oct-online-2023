@@ -1,0 +1,45 @@
+/* 10 */
+[title]{
+    background-color: red;
+    margin: 10px;
+}
+/* =   => exactly match */
+div[title = test]{
+    background-color: gray;
+}
+
+div[title = "test cls clsplus" ]{
+    background-color: blue;
+}
+
+/*   ~=  => contains a seperated word   */
+[title ~= "cls"]{
+    width: 50%;
+}
+
+div[title ~= "cls"] > p{
+    padding: 1em;
+}
+
+/*   *=  => contains a string [separated word or not]  */
+[title *= cls]{
+    text-align: center;
+    color: white;
+}
+/*   ^=   => starts with string  */
+[title ^= test]{
+    border-radius: 6px;
+}
+
+#sign input[type = checkbox]{
+
+}
+
+input[required]{
+
+}
+
+input[type=checkbox]:checked + label{
+    color: red;
+}
+
