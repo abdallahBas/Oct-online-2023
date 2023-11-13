@@ -1,0 +1,10 @@
+/* .bg-warning{
+    background-color: rgb(66, 66, 27) !important;
+} */
+
+:root{
+    --bs-warning-rgb: 66, 66, 27;
+}
+.border-1{
+    border-width: 1.5px;
+}
