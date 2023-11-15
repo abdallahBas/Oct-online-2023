@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+
+    <form action="" class="w-50 mx-auto my-3 p-3 border">
+        <div class="row">
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="first name">
+            </div>
+            <input type="text" class="col form-control" placeholder="middle name">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="last name">
+
+            </div>
+            <input type="text" value="this is plain text" class="form-control-plaintext">
+        </div>
+        <div class="row">
+            <div class="col-auto text-center">
+
+                <label for="" class="form-label">username</label>
+            </div>
+            <div class="col-6">
+                <input type="text" class="form-control" placeholder="username">
+
+            </div>
+        </div>
+        <input type="text" class="form-control mt-2 " placeholder="username" disabled>
+        <input type="text" class="form-control mt-2 visually-hidden" placeholder="username" disabled>
+
+        <div class="row g-2">
+            <label for="" class="form-labe">upload cv</label>
+            <input type="file" class="form-control">
+            <input type="file" class="form-control form-control-lg">
+            <input type="file" class="form-control form-control-sm">
+            <input type="file" class="form-control" multiple>
+
+        </div>
+
+        <label for="exampleColorInput" class="form-label">Color picker</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#56ead1"
+            title="Choose your color">
+
+        <div class="row p-3 gap-3 bg-danger">
+            <select name="" id="" class="form-select col align-self-start">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">Javascript</option>
+            </select>
+            <select name="" id="" class="form-select col" multiple>
+                <option value="">Chrome</option>
+                <option value="">Firefox</option>
+                <option value="">Opera</option>
+            </select>
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-label">HTML</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-label">CSS</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-label">Boostrap</label>
+        </div>
+        <div class="form-check form-switch">
+            <input type="checkbox" class="form-check-input">
+            <label for="" class="form-label">Boostrap</label>
+        </div>
+
+        <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btn-check">Single toggle</label>
+
+        <input type="checkbox" class="btn-check" id="btn-check-2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="btn-check-2">Checked</label>
+
+
+        <input type="range" class="form-range w-25">
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="gender">
+            <label for="" class="form-label">Male</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" name="gender" checked>
+            <label for="" class="form-label">Female</label>
+        </div>
+
+        <div class="form-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis consectetur incidunt
+            vitae accusantium a
+            commodi impedit, dolore ducimus aliquam error ipsum velit nostrum minima eum possimus reprehenderit maxime
+            nemo? Est!</div>
+
+        <div class="input-group">
+            <div class="input-group-text">user name</div>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+                <input class="form-check-input mt-0" type="checkbox" value=""
+                    aria-label="Checkbox for following text input">
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox">
+        </div>
+
+        <div class="form-floating m-3">
+            <input type="email" class="form-control is-valid" id="demo" placeholder="">
+            <label for="demo">username</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control is-invalid" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+
+    </form>
+</body>
+
+</html>
