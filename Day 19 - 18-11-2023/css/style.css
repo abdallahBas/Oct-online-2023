@@ -1,0 +1,19 @@
+div {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-size: 22px;
+    display: inline-block;
+}
+.cls {
+    background-color: blue;
+}
+
+header {
+    background-color: tomato;
+    height: 10vh;;
+}
