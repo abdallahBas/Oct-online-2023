@@ -1,0 +1,20 @@
+#res{
+    background-color: tomato;
+    color: #fff;
+    font-size: 22px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.container{
+    background-color: #eda;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(3 , 200px);
+    gap: 8px;
+}
+.product{
+    text-align: center;
+    background-color: rgb(238, 194, 64);
+}
