@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    gap: 2rem;
+    padding: 1.5rem;
+    background-color: rgb(221, 207, 235);
+}
+
+.item{
+    background-color: rebeccapurple;
+    color: white;
+    display: grid;
+    place-content: center;
+}
+
+p {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
