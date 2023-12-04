@@ -1,0 +1,11 @@
+div {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.cloned {
+    background-color: crimson;
+}
