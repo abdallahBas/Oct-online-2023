@@ -1,0 +1,56 @@
+ul {
+    background-color: rgb(255, 240, 240);
+    padding: 10px 30px;
+    width: fit-content;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+li {
+    /* background-color: red; */
+    padding: 6px 12px;
+    cursor: pointer;
+}
+.active {
+    color: #fff;
+    background-color: rebeccapurple;
+    border-radius: 6px;
+}
+
+.item {
+    background-color: tomato;
+    color: white;
+    height: 40vh;
+    font-size: 6rem;
+    font-weight: bold;
+    display: none;
+}
+.d-active{
+    display: grid;
+    place-content: center;
+}
+.per {
+    margin: 20px auto;
+    padding: 8px;
+    background-color: magenta;
+    width: fit-content;
+    display: flex;
+    gap: 8px;
+    height: 40px;
+}
+
+.per input {
+    width: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+#res {
+    font-size: 25px;
+}
+.valid{
+    color: green;
+}
+.invalid{
+    color: red;
+}
