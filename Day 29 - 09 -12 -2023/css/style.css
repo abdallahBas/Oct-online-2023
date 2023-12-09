@@ -1,0 +1,36 @@
+header{
+    background-color: tomato;
+    color: #fff;
+    font-size: 26px;
+    display: grid;
+    place-content: center;
+    height: 12vh;
+}
+body {
+    margin: 0;
+    width: 2000px;
+}
+
+main {
+    height: 400vh;
+    background-color: tan;
+}
+footer {
+    height: 30vh;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+}
+
+#up-btn {
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border: none;
+}
+.hid{
+    display: none;
+}

@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    display: flex;
+    gap: 6px;
+    height: 8vh;
+    padding: 6px;
+    width: fit-content;
+    background-color: rgb(255, 244, 244);
+    margin: 50px auto;
+}
+
+li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    opacity: 0.1;
+}
+.li-active {
+    opacity: 1;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+
+div {
+    height: 30vh;
+    background-color: red;
+}
+
