@@ -1,0 +1,32 @@
+JSON => Javascript Object  Notation
+JSON derived from Javascript
+Instead of xml
+
+available datatype= => array/ number / string / object / null/ boolean
+
+syntax => key  must be doublequoted
+no comment in json
+
+
+-----------------
+API => Application programming Interface
+API => function()
+private(secret key) [origin] / public
+
+------
+sync and async
+------
+call stack and web API
+--------------
+event loop and callback queue [FIFO]
+
+-------
+AJAX => Asynchronous Javascript and XML
+interact with server wthout refresh page 
+
+
+
+
+
+
+

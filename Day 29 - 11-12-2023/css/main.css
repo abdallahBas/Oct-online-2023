@@ -1,0 +1,29 @@
+.users {
+    width: 89%;
+    margin: 50px auto;
+    background-color: antiquewhite;
+    padding: 10px;
+
+    display: flex;
+    gap:1rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.user {
+    flex-basis: 23%;
+
+    background-color: rebeccapurple;
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    border: 4px solid ;
+    margin: 20px auto;
+    width: 90%;
+}
+td,th {
+    border: 3px solid;
+}
